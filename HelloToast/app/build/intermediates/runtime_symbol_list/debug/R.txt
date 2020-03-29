@@ -836,7 +836,7 @@ int string abc_shareactionprovider_share_with_application 0x7f0b001d
 int string abc_toolbar_collapse_description 0x7f0b001e
 int string app_name 0x7f0b001f
 int string button_label_count 0x7f0b0020
-int string button_label_toast 0x7f0b0021
+int string button_label_say_hello 0x7f0b0021
 int string count_initial_value 0x7f0b0022
 int string hello_text 0x7f0b0023
 int string search_menu_title 0x7f0b0024

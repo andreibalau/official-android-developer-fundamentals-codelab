@@ -837,7 +837,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
 string button_label_count
-string button_label_toast
+string button_label_say_hello
 string count_initial_value
 string hello_text
 string search_menu_title
