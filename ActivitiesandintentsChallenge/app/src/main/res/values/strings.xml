@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Activities and intents - Challenge</string>
+    <string name="button_text_one">Text One</string>
+    <string name="button_text_two">Text Two</string>
+    <string name="button_text_three">Text Three</string>
+    <string name="title_second_activity">Second Activity</string>
+    <string name="passage_one">Challenge: Create an app with three Button elements labeled Text One, Text Two, and Text Three. When any of these Button elements are clicked, launch a second Activity. That second Activity should contain a ScrollView that displays one of three text passages (you can include your choice of passages). Use an Intent to launch the second Activity with extras to indicate which of the three passages to display.
+        \n\n\t
+        Challenge: Create an app with three Button elements labeled Text One, Text Two, and Text Three. When any of these Button elements are clicked, launch a second Activity. That second Activity should contain a ScrollView that displays one of three text passages (you can include your choice of passages). Use an Intent to launch the second Activity with extras to indicate which of the three passages to display.
+        \n\n\t
+        Challenge: Create an app with three Button elements labeled Text One, Text Two, and Text Three. When any of these Button elements are clicked, launch a second Activity. That second Activity should contain a ScrollView that displays one of three text passages (you can include your choice of passages). Use an Intent to launch the second Activity with extras to indicate which of the three passages to display.</string>
+    <string name="passage_two">Each new activity you add to your project has its own layout and Java files, separate from those of the main activity. They also have their own activity elements in the AndroidManifest.xml file. As with the main activity, new activity implementations that you create in Android Studio also extend from the AppCompatActivity class.
+        \n\n\t
+        Each activity in your app is only loosely connected with other activities. However, you can define an activity as a parent of another activity in the AndroidManifest.xml file. This parent-child relationship enables Android to add navigation hints such as left-facing arrows in the title bar for each activity.
+        \n\n\t
+        An activity communicates with other activities (in the same app and across different apps) with an intent. An Intent can be explicit or implicit:
+        \n\n\t
+        An explicit intent is one in which you know the target of that intent; that is, you already know the fully qualified class name of that specific activity.
+        An implicit intent is one in which you do not have the name of the target component, but have a general action to perform.
+    </string>
+    <string name="passage_three">The label attribute adds the title of the Activity to the app bar.
+        \n\n\t
+        With the parentActivityName attribute, you indicate that the main activity is the parent of the second activity. This relationship is used for Up navigation in your app: the app bar for the second activity will have a left-facing arrow so the user can navigate "upward" to the main activity.
+        \n\n\t
+        With the element, you provide additional arbitrary information about the activity in the form of key-value pairs. In this case the metadata attributes do the same thing as the android:parentActivityName attribute—they define a relationship between two activities for upward navigation. These metadata attributes are required for older versions of Android, because the android:parentActivityName attribute is only available for API levels 16 and higher.
+        \n\n\t
+        Extract a string resource for "Second Activity" in the code above, and use activity2_name as the resource name.
+        2.3 Define the layout for the second Activity
+        Open activity_second.xml and click the Design tab if it is not already selected.
+        Drag a TextView from the Palette pane to the top left corner of the layout, and add constraints to the top and left sides of the layout. Set its attributes in the Attributes pane as follows:
+    </string>
+</resources>
