@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ItemsListActivity">
+
+    <Button
+        android:id="@+id/item_rice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/rice_string"
+        android:onClick="onItemClicked"/>
+
+    <Button
+        android:id="@+id/item_eggs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eggs_string"
+        android:layout_below="@+id/item_rice"
+        android:onClick="onItemClicked"/>
+
+    <Button
+        android:id="@+id/item_bread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item_bread"
+        android:layout_below="@+id/item_eggs"
+        android:onClick="onItemClicked"/>
+
+    <Button
+        android:id="@+id/item_fish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item_fish"
+        android:layout_below="@+id/item_bread"
+        android:onClick="onItemClicked"/>
+
+    <Button
+        android:id="@+id/item_apples"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item_apples"
+        android:layout_below="@+id/item_fish"
+        android:onClick="onItemClicked"/>
+
+    <Button
+        android:id="@+id/item_water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item_water"
+        android:layout_below="@+id/item_apples"
+        android:onClick="onItemClicked"/>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ShoppingList-Challenge</string>
+    <string name="add_item">add</string>
+    <string name="itemListActivity_title">Items List</string>
+    <string name="rice_string">Rice</string>
+    <string name="eggs_string">Eggs</string>
+    <string name="item_bread">Bread</string>
+    <string name="item_fish">Fish</string>
+    <string name="item_apples">Apples</string>
+    <string name="item_water">Water</string>
+</resources>
