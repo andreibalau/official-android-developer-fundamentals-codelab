@@ -8,4 +8,5 @@
     <string name="item_fish">Fish</string>
     <string name="item_apples">Apples</string>
     <string name="item_water">Water</string>
+    <string name="search_store">Search Store</string>
 </resources>

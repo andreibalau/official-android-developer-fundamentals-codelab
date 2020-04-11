@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ActivityLifecycleAndState-Homework</string>
+    <string name="counter_button">Count</string>
+    <string name="enter_message">Enter message</string>
+</resources>

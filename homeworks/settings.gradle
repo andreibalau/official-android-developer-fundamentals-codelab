@@ -1,0 +1,2 @@
+rootProject.name='ActivityLifecycleAndState-Homework'
+include ':app'
