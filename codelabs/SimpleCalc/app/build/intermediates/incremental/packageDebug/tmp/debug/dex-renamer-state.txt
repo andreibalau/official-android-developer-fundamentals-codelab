@@ -1,0 +1,4 @@
+#Sat Apr 11 19:59:59 EEST 2020
+base.0=C\:\\Workspace\\Android_workspace\\playground\\android-fundamentals-starter-apps-v2\\SimpleCalc\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
